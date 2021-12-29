@@ -1,6 +1,6 @@
 import React from 'react';
-import CommonButton from './Component/commonButton';
-import Calculator from './Component/calculator';
+import CommonButton from './Pages/commonButton';
+import Calculator from './Pages/calculator';
 import './App.css';
 
 function App() {
@@ -10,5 +10,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

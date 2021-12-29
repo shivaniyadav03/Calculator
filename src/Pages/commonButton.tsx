@@ -1,8 +1,9 @@
 import React from 'react';
+import '../Style/style.css';
+
 interface Props{
     onClick:(e:any)=>void,
-    title:string,
-    style:any,
+    title:string
 
 }
 class CommonButton extends React.Component<Props>{
@@ -11,7 +12,7 @@ class CommonButton extends React.Component<Props>{
     }
 render(){
     return(
-            <button value={this.props.title} onClick={this.props.onClick} style={this.props.style}>
+            <button value={this.props.title}  onClick={this.props.onClick}>
              {this.props.title}
             </button>
     );
